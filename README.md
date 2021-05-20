@@ -6,4 +6,4 @@ I personally do not think these implementations are big enough to be considered 
 
 ## Contents
 _List will be updated the more i explore_
-1) [Content-Based Filtering using RAKE (Rapid Automatic Keyword Extraction)] ()
+1) [Content-Based Filtering using RAKE (Rapid Automatic Keyword Extraction)] (https://github.com/srwang2019/helloworldmini/blob/main/Content%20Based%20filtering%20(Rake).ipynb)
