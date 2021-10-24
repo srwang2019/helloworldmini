@@ -1,0 +1,57 @@
+/* standardise font sizes for body elements */
+body {
+  font: 10px sans-serif;
+}
+
+/* setting the margins of the heatmap when it is append to the div with 'chart' id */
+.chart {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Align the titles in the middle of the boostrap container */
+.text-center {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 25px;
+}
+
+/* .small-text {
+  font-size: 0.8em;
+} */
+
+/* syling tooltip for the heatmap */
+.tooltip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.788);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.tooltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.tooltip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.cell:hover {
+  stroke: #000;
+  stroke-width: 1px;
+}
